@@ -36,10 +36,10 @@ multiplicacion = 3*3
 division = 10/2
 
 #Imprimir datos con Print
-print ("La suma es",suma)
-print ("La resta es",resta)
-print ("La multiplicacion es",multiplicacion)
-print ("La division es",division)
+print ("La suma es ",suma)
+print ("La resta es ",resta)
+print ("La multiplicacion es ",multiplicacion)
+print ("La division es ",division)
 
 mensaje = "Hola"
 nombre = "Campo"
