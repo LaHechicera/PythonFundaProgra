@@ -1,6 +1,6 @@
 
 print("----Formulario----")
-print("A continuación deberas responder unas preguntas referentes a \n\"DC comics\" en su mayoria del universo de Batman por cada \nrespuesta correcta obtendras puntaje (1.0 - 0.5 - 0.2 - 0 respectivamente)")
+print("A continuación deberas responder unas preguntas referentes a \n\"DC comics\" en su mayoria del universo de Batman por cada \nrespuesta correcta obtendras puntaje (Maximo puntaje 15)")
 print(" ")
 print("¿Cuál es la identidad secreta de Batgirl original?")
 print(" ")
@@ -72,4 +72,9 @@ else:
 
 puntos = respt1+respt2+respt3
 
-print("Su puntaje es ", puntos, " de 15")
+if puntos > 0 and puntos < 5:
+    print("Su puntaje es ", puntos, " de 15, no sabe mucho de DC comics")
+elif puntos > 6 and puntos < 10:
+    print("Su puntaje es ", puntos, " de 15, no sabe mucho de DC comics")
+else:
+    print("Su puntaje es ", puntos, " de 15 usted sabe mucho de DC comics")
