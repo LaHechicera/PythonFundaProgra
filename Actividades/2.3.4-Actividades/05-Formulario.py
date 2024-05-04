@@ -4,8 +4,6 @@ print("A continuación deberas responder unas preguntas referentes a \n\"DC comi
 print(" ")
 print("¿Cuál es la identidad secreta de Batgirl original?")
 print(" ")
-import time
-time.sleep (5)
 print("A. Barbara Gordon")
 print("B. Cassandra Cain")
 print("C. Stephaine Brown")
