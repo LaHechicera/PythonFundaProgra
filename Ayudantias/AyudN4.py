@@ -2,12 +2,16 @@
 print(" ")
 print("----Calculo bonificación----")
 print(" ")
+#Ingreso de variables
 nom = input("Ingrese su nombre: ")
 antiguedad = int(input("Ingrese años de antiguedad del empleado (en años): "))
 
 evaDes = input("Evaluación de desempeño empleado \nA)Buena \nB)Intermedia \nC)Mala \nIngrese su respuesta (Ej: a): ")
 print(" ")
 suelBase = 1000000
+
+#Segun la antiguedad se realizara el calculo de bonificacion del empleado
+#El codigo evaluara la antiguedad del empleado y evaluara en que parametro if, elif y else encajara
 
 if antiguedad >= 0 and antiguedad <= 2:
     if evaDes == "A":
