@@ -11,7 +11,7 @@ print(" ")
 suelBase = 1000000
 
 #Segun la antiguedad se realizara el calculo de bonificacion del empleado
-#El codigo evaluara la antiguedad del empleado y evaluara en que parametro if, elif y else encajara
+#El codigo evaluara la antiguedad del empleado y evaluara en que parametro if, elif y else encajara, y dentro de cada funcion se anidan otras funciones if. elif y else, las cualles nos derivaran a los bonos correspondientes segun el desempeño del empleado.
 
 if antiguedad >= 0 and antiguedad <= 2:
     if evaDes == "A":
@@ -51,3 +51,6 @@ else:
     print("Sueldo Base: ", suelBase)
     print(f"Bonificación:  {evaDes:.0f}")
     print(f"Sueldo total:  {suelBase+evaDes:.0f}")
+
+
+
