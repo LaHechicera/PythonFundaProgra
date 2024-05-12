@@ -4,16 +4,12 @@
 print(" ")
 print("-----Cantidad de ventas diarias-----")
 print(" ")
-for i in range(1):
+while True:
     try:
         panCiab = int(input("Ingrese canditad de Pan Ciabatta: "))
-
         pieLim = int(input("Ingrese cantidad de Pie de Limon: "))
-
         cafe = int(input("Ingrese cantidad de cafe: "))
-
         te = int(input("Ingrese cantidad de té :"))
-
         alfajor = int(input("Ingrese cantidad de alfajor : "))
 
         panCiabcosto = (panCiab*2000)
@@ -23,28 +19,24 @@ for i in range(1):
         alfajorcosto = (alfajor*1000)
 
         total = panCiabcosto+pieLimcosto+cafecosto+tecosto+alfajorcosto
-    except TypeError:
+        break
+    except ValueError:
         print("Favor ingrese un número valido")
 
-    else:
-        print(" ")
-        print("-----Resumen de ventas-----")
-    
-    
-    finally:
-        print(" ")
-        print("Total Pan Ciabata: ", panCiabcosto)
-        print("Total Pie de Limón: ", pieLimcosto)
-        print("Total Cafe: ", cafecosto)
-        print("Total té: ", tecosto)
-        print("Total Alfajores: ", alfajorcosto)
-        print("Total ventas", total)
-        print(" ")
+print(" ")
+print("-----Resumen de ventas-----")
+print(" ")
+print(f"Total Pan Ciabata: {panCiabcosto}")
+print(f"Total Pie de Limón: {pieLimcosto}")
+print(f"Total Cafe: {cafecosto}")
+print(f"Total té: {tecosto}")
+print(f"Total Alfajores: {alfajorcosto}")
+print(f"Total ventas: {total}\n")
 
 if total >= 50000:
-    print("Saco buena venta hoy, un total de ", total)
+    print(f"Saco buena venta hoy, un total de {total}")
     print(" ")
 else:
-    print("Sus ventas fueron bajas hoy, un total de ", total)
+    print(f"Sus ventas fueron bajas hoy, un total de {total}")
     print(" ")
 
