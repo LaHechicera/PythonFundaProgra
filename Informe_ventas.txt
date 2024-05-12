@@ -1,0 +1,8 @@
+
+-----Resumen de ventas-----
+Total Pan Ciabatta: 10000
+Total Pie de Limon: 126000
+Total Cafe: 8800
+Total te: 8000
+Total Alfajores: 6000
+Total ventas: 158800

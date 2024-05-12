@@ -36,3 +36,12 @@ if total >= 50000:
     print(f"Saco buena venta hoy, un total de {total}\n")
 else:
     print(f"Sus ventas fueron bajas hoy, un total de {total}\n")
+
+with open('Informe_ventas.txt', 'w') as archivo:
+    archivo.write("\n-----Resumen de ventas-----")
+    archivo.write(f"\nTotal Pan Ciabatta: {panCiabcosto}")
+    archivo.write(f"\nTotal Pie de Limon: {pieLimcosto}")
+    archivo.write(f"\nTotal Cafe: {cafecosto}")
+    archivo.write(f"\nTotal te: {tecosto}")
+    archivo.write(f"\nTotal Alfajores: {alfajorcosto}")
+    archivo.write(f"\nTotal ventas: {total}")

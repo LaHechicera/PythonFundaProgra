@@ -23,6 +23,9 @@ while True:
     except ValueError:
         print("Favor ingrese un número valido")
 
+    finally:
+        print("-----VENTAS-----")
+
 print(" ")
 print("-----Resumen de ventas-----")
 print(" ")
@@ -40,3 +43,11 @@ else:
     print(f"Sus ventas fueron bajas hoy, un total de {total}")
     print(" ")
 
+with open('Informe_ventas.txt', 'w') as archivo:
+    archivo.write("\n-----Resumen de ventas-----")
+    archivo.write(f"\nTotal Pan Ciabatta: {panCiabcosto}")
+    archivo.write(f"\nTotal Pie de Limon: {pieLimcosto}")
+    archivo.write(f"\nTotal Cafe: {cafecosto}")
+    archivo.write(f"\nTotal te: {tecosto}")
+    archivo.write(f"\nTotal Alfajores: {alfajorcosto}")
+    archivo.write(f"\nTotal ventas: {total}")
