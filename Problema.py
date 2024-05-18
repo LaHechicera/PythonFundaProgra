@@ -43,11 +43,19 @@ else:
     print(f"Sus ventas fueron bajas hoy, un total de {total}")
     print(" ")
 
+import datetime
+fechaHora = datetime.datetime.now()
+
 with open('Informe_ventas.txt', 'w') as archivo:
     archivo.write("\n-----Resumen de ventas-----")
+    archivo.write(" ")
+    archivo.write(f"\nFecha y hora actual: {fechaHora}")
+    archivo.write(" ")
     archivo.write(f"\nTotal Pan Ciabatta (Vendidos {panCiab}): {panCiabcosto}")
     archivo.write(f"\nTotal Pie de Limon (Vendidos {pieLim}): {pieLimcosto}")
     archivo.write(f"\nTotal Cafe (Vendidos {cafe}): {cafecosto}")
     archivo.write(f"\nTotal te (Vendidos {te}): {tecosto}")
     archivo.write(f"\nTotal Alfajores (Vendidos {alfajor}): {alfajorcosto}")
     archivo.write(f"\nTotal ventas: {total}")
+
+print ("Se ha creado un archivo con el resumen total del dia")

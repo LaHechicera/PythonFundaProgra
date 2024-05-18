@@ -10,3 +10,6 @@ print("Su IMC ", imc)
 
 print(f"Tu IMC es de: {imc: .2f}") #otra manera abreviada para redondear, al abrir esos corchetes se indica que el resultado es flotante, le decimos que despues de la coma del decimal solo se mostraran 2 numeros
 
+cadena = "este es un texto de prueba"
+total_caracteres = len(cadena)
+print (total_caracteres)

@@ -1,8 +1,9 @@
 
------Resumen de ventas-----
-Total Pan Ciabatta (Vendidos 54): 108000
+-----Resumen de ventas----- 
+Fecha y hora actual: 2024-05-17 23:59:41.613236 
+Total Pan Ciabatta (Vendidos 53): 106000
 Total Pie de Limon (Vendidos 5): 17500
-Total Cafe (Vendidos 63): 138600
+Total Cafe (Vendidos 21): 46200
 Total te (Vendidos 2): 3200
-Total Alfajores (Vendidos 11): 11000
-Total ventas: 278300
+Total Alfajores (Vendidos 3): 3000
+Total ventas: 175900
